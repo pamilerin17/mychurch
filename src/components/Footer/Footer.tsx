@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
@@ -22,7 +22,7 @@ export default function Footer() {
             <p className="text-sm mb-4"> Copyright ©{new Date().getFullYear()} All rights reserved</p>
             <p className="text-sm mb-2">(480) 555-0103</p>
             <p className="text-sm mb-2">No 51b, Olarenwaju Bustop, Off Isasi Road, Akute, Ogun State.</p>
-            <p className="text-sm mb-2">info@nccakute.COM</p>
+            <p className="text-sm mb-2">info@nccakute.com</p>
           </div>
 
           {/* Column 2: Quick Links */}

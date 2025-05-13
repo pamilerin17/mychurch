@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import W1 from '../../assets/w1.png';
 import W2 from '../../assets/w2.png';
 import W3 from '../../assets/w3.png';
