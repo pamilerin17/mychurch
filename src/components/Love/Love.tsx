@@ -20,9 +20,9 @@ export default function Love() {
             </p>
           </div>
           <div className="mt-6">
-            <button className="bg-orange-200 hover:bg-orange-300 text-gray-800 font-medium py-2 px-8 rounded transition duration-300">
+            <Link to='/About' className="bg-orange-200 hover:bg-orange-300 text-gray-800 font-medium py-2 px-8 rounded transition duration-300">
               READ MORE
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -32,21 +32,21 @@ export default function Love() {
             <img 
               src={Im}
               alt="Man praying" 
-              className="w-full h-64 object-cover border-0"
+              className="w-full h-64 object-cover border-0" style={{ height: '320px', width: '100%' }}
             />
           </div>
           <div className="overflow-hidden rounded-lg md:col-span-1 lg:col-span-1 mt-20">
             <img 
               src={Im2}
               alt="People reading" 
-              className="w-full h-64 object-cover" 
+              className="w-full h-64 object-cover" style={{ height: '320px', width: '100%' }}
             />
           </div>
           <div className="overflow-hidden rounded-lg">
             <img 
               src={Im3}
               alt="Woman in church" 
-              className="w-full h-64 object-cover" 
+              className="w-full h-64 object-cover" style={{ height: '320px', width: '100%' }}
             />
           </div>
         </div>
@@ -63,14 +63,7 @@ export default function Love() {
               incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <div className="mt-6 flex justify-center">
-            <Link to="/About" className="inline-flex items-center text-gray-700 hover:text-gray-900">
-              Read More 
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-              </svg>
-            </Link>
-          </div>
+         
         </div>
       </section>
     </div>

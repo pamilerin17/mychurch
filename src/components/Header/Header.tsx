@@ -33,7 +33,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Toggle */}
           <div className="md:hidden flex items-center">
-            <button onClick={toggleMenu} className="text-white focus:outline-none">
+            <button onClick={toggleMenu} className="text-white focus:outline-none cursor-pointer">
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
