@@ -18,10 +18,10 @@ const Header: React.FC = () => {
 
           {/* Centered Navigation */}
           <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex space-x-6">
-             <Link to="/" className=" text-sm font-medium">HOME</Link>
-            <Link to="About" className=" text-sm font-medium">ABOUT US</Link>
-            <Link to="Sermon" className=" text-sm font-medium">SERMON</Link>
-            <Link to="Blog" className=" text-sm font-medium">BLOG</Link>
+             <Link to="/" className=" text-sm font-medium hover:text-orange-300">HOME</Link>
+            <Link to="About" className=" text-sm font-medium hover:text-orange-300">ABOUT US</Link>
+            <Link to="Sermon" className=" text-sm font-medium hover:text-orange-300">SERMON</Link>
+            <Link to="Blog" className=" text-sm font-medium hover:text-orange-300">BLOG</Link>
           </div>
 
           {/* Right CTA Button */}
@@ -42,10 +42,10 @@ const Header: React.FC = () => {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden flex flex-col space-y-4 pt-4 pb-6">
-            <Link to="/" className=" text-sm font-medium">HOME</Link>
-            <Link to="About" className=" text-sm font-medium">ABOUT US</Link>
-            <Link to="Sermon" className=" text-sm font-medium">SERMON</Link>
-            <Link to="Blog" className=" text-sm font-medium">BLOG</Link>
+            <Link to="/" className=" text-sm font-medium hover:text-orange-300">HOME</Link>
+            <Link to="About" className=" text-sm font-medium hover:text-orange-300">ABOUT US</Link>
+            <Link to="Sermon" className=" text-sm font-medium hover:text-orange-300 ">SERMON</Link>
+            <Link to="Blog" className=" text-sm font-medium hover:text-orange-300">BLOG</Link>
             <Link to='/Contact' className="bg-orange-200 text-black px-5 py-2 rounded-md  w-max">
               CONTACT US
             </Link>

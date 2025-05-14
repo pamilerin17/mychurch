@@ -29,10 +29,10 @@ export default function Footer() {
           <div className="md:mx-auto">
             <h3 className="text-sm font-medium mb-6">Quicklinks</h3>
             <nav className="flex flex-col space-y-3">
-               <Link to="/" className=" text-sm font-medium">HOME</Link>
-            <Link to="About" className=" text-sm font-medium">ABOUT US</Link>
-            <Link to="Sermon" className=" text-sm font-medium">SERMON</Link>
-            <Link to="Blog" className=" text-sm font-medium">BLOG</Link>
+               <Link to="/" className=" text-sm font-medium hover:text-orange-300">HOME</Link>
+            <Link to="About" className=" text-sm font-medium hover:text-orange-300">ABOUT US</Link>
+            <Link to="Sermon" className=" text-sm font-medium hover:text-orange-300">SERMON</Link>
+            <Link to="Blog" className=" text-sm font-medium hover:text-orange-300">BLOG</Link>
             <Link to='/Contact' className="bg-orange-200 text-black px-5 py-2 rounded-md  w-max">
               CONTACT US
             </Link>
@@ -71,7 +71,7 @@ export default function Footer() {
                 />
                 <button 
                   onClick={handleSubscribe}
-                  className="bg-orange-200 hover:bg-orange-300 text-gray-900 font-medium px-6 py-3 rounded-md transition-colors uppercase text-sm"
+                  className="bg-orange-200 hover:bg-orange-300 text-gray-900 font-medium px-6 py-3 rounded-md transition-colors uppercase text-sm cursor-pointer"
                 >
                   Subscribe
                 </button>
@@ -79,9 +79,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div>
-         <p className=''>Made with love by the media team</p>
-        </div>
+       <div className="w-full flex justify-center mt-8 mb-4">
+      <p className="text-xs text-gray-500 font-light">
+        Made with love by the media team
+      </p>
+    </div>
       </div>
     </footer>
   );
