@@ -5,7 +5,7 @@ import Item2 from '../../assets/item2.png';
 import Item3 from '../../assets/item3.png';
 import Item4 from '../../assets/item4.png';
 
-// Updated type without role
+
 type TeamMemberProps = {
   name: string;
   image: string;

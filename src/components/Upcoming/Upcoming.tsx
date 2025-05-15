@@ -74,7 +74,7 @@ export default function Upcoming() {
 
         {/* View All Link */}
         <div className="mt-8 text-right">
-          <Link to="/About" className="inline-flex items-center text-gray-900 hover:text-gray-700 font-medium">
+          <Link to="/Sermon" className="inline-flex items-center text-gray-900 hover:text-gray-700 font-medium">
             View all Sermons
             <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>

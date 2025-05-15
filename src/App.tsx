@@ -13,6 +13,7 @@ import About from './components/About/About'
 import Our from './components/Our/Our'
 import Benefit from './components/Benefit/Benefit'
 import Meet from './components/Meet/Meet'
+import Sermon from './components/Sermon/Sermon'
 import './App.css'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path='/' element={<><Body/><Church/><Love/><Watch/><Upcoming/><We/><Read/></>}/>
           <Route path='/About' element={<><About/><Our/><Benefit/><Meet/></>}/>
+          <Route path='/Sermon' element={<><Sermon/><Upcoming/><Read/></>}/>
         </Routes>
         <Footer/>
       </Router>
