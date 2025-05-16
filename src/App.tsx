@@ -14,6 +14,10 @@ import Our from './components/Our/Our'
 import Benefit from './components/Benefit/Benefit'
 import Meet from './components/Meet/Meet'
 import Sermon from './components/Sermon/Sermon'
+import Blog from './components/Blog/Blog'
+import All from './components/All/All'
+import Contact from './components/Contact/Contact'
+import Form from './components/Form/Form'
 import './App.css'
 
 function App() {
@@ -27,6 +31,8 @@ function App() {
           <Route path='/' element={<><Body/><Church/><Love/><Watch/><Upcoming/><We/><Read/></>}/>
           <Route path='/About' element={<><About/><Our/><Benefit/><Meet/></>}/>
           <Route path='/Sermon' element={<><Sermon/><Upcoming/><Read/></>}/>
+          <Route path='/Blog' element={<><Blog/><All/></>}/>
+          <Route path='/Contact' element={<><Contact/><Form/></>}/>
         </Routes>
         <Footer/>
       </Router>
