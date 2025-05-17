@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/react.svg'
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -18,7 +19,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Column 1: Logo and Contact */}
           <div>
-            <h2 className="text-2xl font-bold text-orange-300 mb-6">{'{'}Finsweet</h2>
+            <img src={Logo} alt="" className='mb-5' />
             <p className="text-sm mb-4"> Copyright ©{new Date().getFullYear()} All rights reserved</p>
             <p className="text-sm mb-2">(480) 555-0103</p>
             <p className="text-sm mb-2">No 51b, Olarenwaju Bustop, Off Isasi Road, Akute, Ogun State.</p>

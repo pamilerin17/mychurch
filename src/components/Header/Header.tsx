@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/react.svg'
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16 relative">
           {/* Logo */}
           <div className="text-xl font-bold text-white">
-            {'{'}Finsweet{'}'}
+            <img src={Logo} alt="" className='ml-10' />
           </div>
 
           {/* Centered Navigation */}
