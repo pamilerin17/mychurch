@@ -1,12 +1,12 @@
 // import React from 'react';
-import Cta from '../../assets/cta.png'
+import Back from '../../assets/back.jpg'
 export default function We() {
   return (
     <div className="relative w-full h-screen min-h-[600px] overflow-hidden">
       {/* Background Image */}
       <div className="absolute inset-0 w-full h-full">
         <img 
-          src={Cta}
+          src={Back}
           alt="Church dome architecture" 
           className="w-full h-full object-cover" style={{ height: '560px', width: '100%' }}
         />

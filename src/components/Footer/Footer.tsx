@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Logo from '../../assets/react.svg'
+// import { CiHeart } from "react-icons/ci";
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -21,7 +22,7 @@ export default function Footer() {
           <div>
             <img src={Logo} alt="" className='mb-5' />
             <p className="text-sm mb-4"> Copyright ©{new Date().getFullYear()} All rights reserved</p>
-            <p className="text-sm mb-2">(480) 555-0103</p>
+            <p className="text-sm mb-2">+234 (0) 8134 555-0103</p>
             <p className="text-sm mb-2">No 51b, Olarenwaju Bustop, Off Isasi Road, Akute, Ogun State.</p>
             <p className="text-sm mb-2">info@nccakute.com</p>
           </div>
@@ -45,17 +46,20 @@ export default function Footer() {
             <div className="mb-6">
               <h3 className="text-sm font-medium mb-4">Connect</h3>
               <div className="flex space-x-4">
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://www.facebook.com/share/16ZmnyuyNr/" className="text-white hover:text-orange-300 transition-colors">
                   <FaFacebookF className="h-5 w-5" />
                 </Link>
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://www.instagram.com/ncchurchakutecentre?igsh=MTk4dW4wYjc0OTMzdw==" className="text-white hover:text-orange-300 transition-colors">
                   <FaInstagram className="h-5 w-5" />
                 </Link>
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://www.tiktok.com/@nccakute124?_t=ZM-8wSCFemz5ny&_r=1" className="text-white hover:text-orange-300 transition-colors">
                   <FaTiktok className="h-5 w-5" />
                 </Link>
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://youtube.com/@nccakute?si=WLUPNwen1A7-A9u6" className="text-white hover:text-orange-300 transition-colors">
                   <FaYoutube className="h-5 w-5" />
+                </Link>
+                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                  <FaWhatsapp className="h-5 w-5" />
                 </Link>
               </div>
             </div>
@@ -82,7 +86,7 @@ export default function Footer() {
         </div>
        <div className="w-full flex justify-center mt-8 mb-4">
       <p className="text-xs text-gray-500 font-light">
-        Made with love by the media team
+        Made with love  by the media team
       </p>
     </div>
       </div>

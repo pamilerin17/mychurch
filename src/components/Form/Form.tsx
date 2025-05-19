@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaTiktok, FaYoutube, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Form = () => {
@@ -107,7 +107,7 @@ const handleChange = (e: { target: { name: string; value: string; }; }) => {
             {/* Contact Details */}
             <div className="mb-8">
               <p className="text-gray-500 mb-2">Contact Details</p>
-              <p className="text-xl font-bold text-gray-800">(480) 555-0103</p>
+              <p className="text-xl font-bold text-gray-800">+234 (0) 8134 555-0103</p>
               <p className="text-xl font-bold text-gray-800">info@nccakute.com</p>
             </div>
             
@@ -115,18 +115,19 @@ const handleChange = (e: { target: { name: string; value: string; }; }) => {
             <div>
               <p className="text-gray-500 mb-3">Find us here</p>
              <div className="flex space-x-4">
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://www.facebook.com/share/16ZmnyuyNr/" className="text-orange-300 hover:text-orange-400 transition-colors">
                   <FaFacebookF className="h-5 w-5" />
                 </Link>
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://www.instagram.com/ncchurchakutecentre?igsh=MTk4dW4wYjc0OTMzdw==" className="text-orange-300 hover:text-orange-400 transition-colors">
                   <FaInstagram className="h-5 w-5" />
                 </Link>
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://www.tiktok.com/@nccakute124?_t=ZM-8wSCFemz5ny&_r=1" className="text-orange-300 hover:text-orange-400 transition-colors">
                   <FaTiktok className="h-5 w-5" />
                 </Link>
-                <Link to="/" className="text-white hover:text-orange-300 transition-colors">
+                <Link to="https://youtube.com/@nccakute?si=WLUPNwen1A7-A9u6" className="text-orange-300 hover:text-orange-400 transition-colors">
                   <FaYoutube className="h-5 w-5" />
                 </Link>
+                <Link to='/' className='text-orange-300 hover:text-orange-400 transition-colors'><FaWhatsapp className='h-5 w-5'/></Link>
               </div>
             </div>
           </div>
